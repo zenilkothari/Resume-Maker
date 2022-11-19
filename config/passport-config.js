@@ -29,7 +29,7 @@ const oauthStrategyOptions = {
   clientSecret: process.env.GOOGLE_CLIENT_SECRET,
   callbackURL:
     //"https://localhost:5000/api/login/auth/google/callback",
-   "/api/login/auth/google/callback",
+   "https://resumemaker-1.herokuapp.com/api/login/auth/google/callback",
 };
 
 function myLocalStrategy(username, password, done) {
